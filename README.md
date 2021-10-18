@@ -1,9 +1,8 @@
-# cheetah.js
+# REST API Cheetah
 
-## How to create project
+## How to run the project
 
 ```
-git clone https://github.com/apurbadh/cheetah.js.git <project-name>
 npm install
 npm run dev
 ```
