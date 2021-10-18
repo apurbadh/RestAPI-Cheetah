@@ -4,7 +4,9 @@ class Post extends Model{
   
     setValues(){
         return {
-
+            "id" : [dbTypes.Integer, specialTypes.primaryKey],
+            "title" : [dbTypes.String],
+            "description" : [dbTypes.Text]
         }
     }
     
